@@ -16,7 +16,7 @@ Este repositorio contiene la traducción de un diseño visual a código funciona
 1. Generar la estructura HTML basada estrictamente en la disposición del diseño proporcionado.
 2. Aplicar propiedades CSS3 específicas según los lineamientos visuales (tipografías, espaciados, colores de marca y estados de interacción).
 
-## 🛠️ Cómo visualizar el proyecto
+## Cómo visualizar el proyecto
 
 1. Clona este repositorio:
    ```bash
