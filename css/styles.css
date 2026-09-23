@@ -137,3 +137,84 @@ footer {
 .social-links a:hover {
     color: var(--texto-claro);
 }
+/* =========================================
+   SECCIÓN DE PROYECTOS (Grid y Tarjetas)
+   ========================================= */
+.seccion-proyectos {
+    padding: 4rem 5%;
+}
+
+.encabezado-proyectos {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.encabezado-proyectos h2 {
+    color: var(--azul-1);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.encabezado-proyectos p {
+    color: var(--azul-3);
+    font-size: 1.1rem;
+}
+
+/* Grid para alinear las tarjetas */
+.grid-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* Diseño de cada Tarjeta */
+.tarjeta-proyecto {
+    background-color: var(--bg-tarjetas);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--sombra-suave);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid var(--azul-7);
+}
+
+.tarjeta-proyecto:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--sombra-tech);
+    border-color: var(--azul-5);
+}
+
+.tarjeta-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 3px solid var(--azul-6);
+}
+
+.tarjeta-contenido {
+    padding: 1.5rem;
+}
+
+.tarjeta-contenido h3 {
+    color: var(--azul-2);
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+}
+
+.tarjeta-contenido p {
+    color: var(--azul-3);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-secundario {
+    color: var(--azul-6);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.btn-secundario:hover {
+    color: var(--azul-2);
+    text-decoration: underline;
+}
