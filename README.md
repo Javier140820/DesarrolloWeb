@@ -1,23 +1,56 @@
-# Maquetación de Diseño Web - UI a Código
+# Feria de Innovación Tecnológica 2026
 
-Este repositorio contiene la traducción de un diseño visual a código funcional y responsivo, aplicando las mejores prácticas de desarrollo web moderno.
+Sitio web informativo desarrollado para una Feria de Innovación Tecnológica organizada por una institución de educación superior. El sitio presenta la feria, exhibe los proyectos tecnológicos participantes, muestra el programa de actividades y permite la inscripción de los visitantes.
 
-## Tecnologías Utilizadas
+## Integrantes del equipo
 
-- **HTML5 Semántico:** Estructuración del contenido utilizando etiquetas como `<article>`, `<header>`, `<main>` y `<footer>` para mejorar la accesibilidad.
-- **CSS3 Moderno:** 
-  - Uso de **Flexbox** para la alineación y distribución del espacio.
-  - Implementación de **Variables CSS (Custom Properties)** para fácil mantenimiento de temas (colores, espacios, bordes).
-  - Efectos visuales interactivos mediante `hover`, `transitions` y `box-shadow`.
-  - Diseño base adaptable (Mobile-First / Responsive).
+- Ricardo Castro — CSS y página de Proyectos
+- Matías Becerra — Página de Inicio
+- Isidora Fernández — Página de Contacto e inscripción
+- Krishna Salgado — Página de Programa
 
-## Requerimientos del Proyecto
+## Descripción del sitio
 
-1. Generar la estructura HTML basada estrictamente en la disposición del diseño proporcionado.
-2. Aplicar propiedades CSS3 específicas según los lineamientos visuales (tipografías, espaciados, colores de marca y estados de interacción).
+El sitio cuenta con cuatro páginas principales:
 
-## Cómo visualizar el proyecto
+- **Inicio**: presentación de la feria, propósito, fecha, lugar y llamado a la participación.
+- **Proyectos**: exhibición de seis proyectos tecnológicos mediante tarjetas.
+- **Programa**: tabla con horarios, actividades, expositores y salas asignadas.
+- **Contacto e inscripción**: formulario de inscripción, datos de contacto y enlaces a redes sociales simuladas.
 
-1. Clona este repositorio:
-   ```bash
-   git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)
+## Instrucciones para ejecutar el sitio
+
+1. Clona o descarga este repositorio.
+2. Abre el archivo `index.html` directamente en tu navegador (doble clic, o clic derecho → "Abrir con").
+3. Navega entre las páginas usando la barra de navegación superior.
+
+No requiere instalación de dependencias ni servidor local.
+
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3 (hoja de estilos propia en `css/styles.css`)
+- Bootstrap (opcional, en las páginas que lo requieran)
+
+## Estructura del repositorio
+
+```
+├── index.html
+├── proyectos.html
+├── programa.html
+├── contacto.html
+├── css/
+│   └── styles.css
+├── img/
+│   └── (imágenes y recursos utilizados)
+└── README.md
+```
+
+## Distribución de responsabilidades
+
+| Integrante | Responsabilidad |
+|---|---|
+| Ricardo Castro | Hoja de estilos CSS propia (`styles.css`) y desarrollo de la página de Proyectos |
+| Matías Becerra | Desarrollo de la página de Inicio |
+| Isidora Fernández | Desarrollo de la página de Contacto e inscripción |
+| Krishna Salgado | Desarrollo de la página de Programa |
