@@ -189,6 +189,14 @@ footer {
     height: 200px;
     object-fit: cover;
     border-bottom: 3px solid var(--azul-6);
+    filter: blur(8px) brightness(0.6);
+    transform: scale(1.1);
+    transition: filter 0.4s ease, transform 0.4s ease;
+}
+
+.tarjeta-proyecto:hover .tarjeta-img {
+    filter: blur(0) brightness(1);
+    transform: scale(1);
 }
 
 .tarjeta-contenido {
@@ -220,7 +228,9 @@ footer {
     text-decoration: underline;
 }
 
-
+/* =========================================
+   SECCIÓN PROGRAMA (Tabla / Calendario)
+   ========================================= */
 .seccion-programa {
     padding: 4rem 5%;
 }
