@@ -4,8 +4,8 @@
     --azul-3: #3A6188; /* antes #49769F: se oscureció para mejorar contraste sobre blanco */
     --azul-4: #4E8EA2;
     --azul-5: #6EA2B3;
-    --azul-6: #7BBDE8;
-    --azul-7: #BDD8E9;
+    --azul-6: #4FC3F7;
+    --azul-7: #EAF4FA;
     --bg-tarjetas: #FFFFFF;
     --texto-claro: #FFFFFF;
     --sombra-tech: 0 8px 16px rgba(123, 189, 232, 0.4);
@@ -21,7 +21,7 @@
 }
 
 body {
-    background-color: var(--azul-7);
+    background-color: #FAFCFD;
     color: var(--azul-1);
     line-height: 1.6;
 }
@@ -60,7 +60,8 @@ nav a {
 }
 
 nav a:hover, nav a.active {
-    color: var(--azul-6);
+    color: var(--texto-claro);
+    font-weight: 700;
     border-bottom: 2px solid var(--azul-6);
 }
 
@@ -140,7 +141,7 @@ footer {
     color: var(--texto-claro);
 }
 
-
+/* Variante para cuando los social-links van sobre fondo claro (ej. página de Contacto) */
 .bloque-info .social-links a {
     color: var(--azul-2);
     font-weight: 600;
@@ -151,7 +152,9 @@ footer {
     text-decoration: underline;
 }
 
-
+/* =========================================
+   SECCIÓN DE PROYECTOS (Grid y Tarjetas)
+   ========================================= */
 .seccion-proyectos {
     padding: 4rem 5%;
 }
@@ -331,6 +334,18 @@ footer {
     font-weight: 500;
 }
 
+.link-mapa {
+    color: var(--azul-2);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--azul-4);
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.link-mapa:hover {
+    color: var(--azul-1);
+    border-bottom-color: var(--azul-1);
+}
+
 .formulario-inscripcion {
     background-color: var(--bg-tarjetas);
     padding: 2rem;
@@ -382,7 +397,9 @@ footer {
     margin-top: 0.5rem;
 }
 
-
+/* =========================================
+   EFECTO HOVER PARA LAS TARJETAS DE PROGRAMA (Bootstrap card)
+   ========================================= */
 .seccion-programa .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -392,10 +409,17 @@ footer {
     box-shadow: var(--sombra-tech);
 }
 
-
+/* =========================================
+   EFECTOS HOVER PÁGINA INICIO
+   ========================================= */
 .tecnologia-item {
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     cursor: default;
+}
+
+.caja-info {
+    background-color: var(--azul-7);
+    border-color: var(--azul-7) !important;
 }
 
 .tecnologia-item:hover {
