@@ -140,7 +140,7 @@ footer {
     color: var(--texto-claro);
 }
 
-/* Variante para cuando los social-links van sobre fondo claro (ej. página de Contacto) */
+
 .bloque-info .social-links a {
     color: var(--azul-2);
     font-weight: 600;
@@ -151,9 +151,7 @@ footer {
     text-decoration: underline;
 }
 
-/* =========================================
-   SECCIÓN DE PROYECTOS (Grid y Tarjetas)
-   ========================================= */
+
 .seccion-proyectos {
     padding: 4rem 5%;
 }
@@ -384,14 +382,43 @@ footer {
     margin-top: 0.5rem;
 }
 
-/* =========================================
-   EFECTO HOVER PARA LAS TARJETAS DE PROGRAMA (Bootstrap card)
-   ========================================= */
+
 .seccion-programa .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .seccion-programa .card:hover {
     transform: translateY(-8px);
+    box-shadow: var(--sombra-tech);
+}
+
+
+.tecnologia-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    cursor: default;
+}
+
+.tecnologia-item:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--sombra-suave);
+    border-color: var(--azul-5) !important;
+}
+
+.tecnologia-item i {
+    color: var(--azul-3);
+    transition: color 0.3s ease;
+}
+
+.tecnologia-item:hover i {
+    color: var(--azul-2);
+}
+
+.hero-img {
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.hero-img:hover {
+    transform: scale(1.03);
     box-shadow: var(--sombra-tech);
 }
