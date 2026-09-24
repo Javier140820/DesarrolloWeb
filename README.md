@@ -4,9 +4,8 @@ Sitio web informativo desarrollado para una Feria de Innovación Tecnológica or
 
 ## Integrantes del equipo
 
-- Ricardo Castro — CSS y página de Proyectos
+- Ricardo Castro — CSS, página de Proyectos, página de Contacto e inscripción
 - Matías Becerra — Página de Inicio
-- Isidora Fernández — Página de Contacto e inscripción
 - Krishna Salgado — Página de Programa
 
 ## Descripción del sitio
@@ -50,7 +49,6 @@ No requiere instalación de dependencias ni servidor local.
 
 | Integrante | Responsabilidad |
 |---|---|
-| Ricardo Castro | Hoja de estilos CSS propia (`styles.css`) y desarrollo de la página de Proyectos |
+| Ricardo Castro | Hoja de estilos CSS propia (`styles.css`) y desarrollo de la página de Proyectos y de la página de Contacto e inscripción|
 | Matías Becerra | Desarrollo de la página de Inicio |
-| Isidora Fernández | Desarrollo de la página de Contacto e inscripción |
 | Krishna Salgado | Desarrollo de la página de Programa |
