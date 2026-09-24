@@ -1,7 +1,7 @@
 :root {
     --azul-1: #001D39;
     --azul-2: #0A4174;
-    --azul-3: #3A6188; /* antes #49769F: se oscureció para mejorar contraste sobre blanco */
+    --azul-3: #3A6188; 
     --azul-4: #4E8EA2;
     --azul-5: #6EA2B3;
     --azul-6: #7BBDE8;
@@ -140,9 +140,7 @@ footer {
     color: var(--texto-claro);
 }
 
-/* =========================================
-   SECCIÓN DE PROYECTOS (Grid y Tarjetas)
-   ========================================= */
+
 .seccion-proyectos {
     padding: 4rem 5%;
 }
@@ -284,9 +282,6 @@ footer {
     font-weight: 600;
 }
 
-/* =========================================
-   SECCIÓN CONTACTO E INSCRIPCIÓN
-   ========================================= */
 .seccion-contacto {
     padding: 4rem 5%;
     display: grid;
